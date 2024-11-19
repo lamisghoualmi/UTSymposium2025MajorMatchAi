@@ -9,7 +9,10 @@ import os
 
 
 
-
+# Load OpenAI API key from secrets file
+os.environ['OPENAI_API_KEY'] = st.secrets['pass']
+openai.api_key = os.environ['OPENAI_API_KEY']
+#openai.api_key = st.secrets["pass"]
 
 
 
