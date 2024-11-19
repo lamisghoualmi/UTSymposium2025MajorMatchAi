@@ -187,7 +187,7 @@ if st.button('Discover Your Path!'):
     print(Recommended_Majors)
 
     # Load UT programs data
-    df = pd.read_csv(r"C:\Users\lghoualm\OneDrive - University of Tennessee\Desktop\Tech meetings -Conferences\MajorMatchAiApp\Majors.csv", index_col=None)
+    df = pd.read_csv(r"Majors.csv", index_col=None)
     ListOfprograms = df.to_string(index=False)
 
 
