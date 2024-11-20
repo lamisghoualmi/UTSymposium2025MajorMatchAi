@@ -27,6 +27,13 @@ st.sidebar.write("""
          ######  Created by Lamis Ghoualmi
          """)
 
+st.sidebar.write("""
+         ######   [Github](https://github.com/lamisghoualmi)
+                  """)
+
+st.sidebar.write("""
+         ######  [Linkedin](https://www.linkedin.com/in/lamisghoualmi/)
+                  """)
 
 # Display the header
 
