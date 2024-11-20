@@ -20,7 +20,7 @@ openai.api_key = os.environ['OPENAI_API_KEY']
 #----------------------------------------------------------------------------------------
 st.sidebar.image("MyLogo.png")
 st.sidebar.write("""
-         ######  This application, developed in Python, utilizes Streamlit and OpenAI APIs to assist incoming freshmen at the University of Tennessee in selecting a major that aligns with their strengths, preferences, and career aspirations. By evaluating their comfort levels in subjects such as math, science, and arts, as well as their preferred work environments, the app generates personalized major recommendations and career insights, tailored to the available majors at UT.
+         ######  This app, developed in Python, utilizes Streamlit and OpenAI APIs to assist incoming freshmen at the University of Tennessee in selecting a major that aligns with their strengths, preferences, and career aspirations. By evaluating their comfort levels in subjects such as math, science, and arts, as well as their preferred work environments, the app generates personalized major recommendations and career insights, tailored to the available majors at UT.
 
          """)
 st.sidebar.write("""
