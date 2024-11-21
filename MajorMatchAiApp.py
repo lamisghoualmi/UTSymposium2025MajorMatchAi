@@ -216,6 +216,15 @@ if st.button('Discover Your Path!'):
     st.markdown("<h3 style='font-size:18px; color:#FF8200;'> List of Programs Available at the University of Tennessee for the Recommended Majors </h3>", unsafe_allow_html=True)   
     st.write(ProgramsRecommended)
 
+
+     # Display the link to UTK's undergraduate programs and majors     
+    st.markdown("<h4 style='font-size:18px; color:#FF8200;'>  If you're interested in exploring the wide range of majors and colleges at the University of Tennessee, check out the link below to discover all the available programs! </h4>", unsafe_allow_html=True)  
+
+   
+    UTKProgramsRecommended = "https://admissions.utk.edu/why-ut/undergraduate-programs-majors/"
+    st.write(f"Explore UTK's Programs and Majors: [Click Here]({UTKProgramsRecommended})")
+
+
     #_____________ STEP 04: List of suitable jobs:
     st.markdown("<h3 style='font-size:18px; color:#FF8200;'>Recommended Jobs That a Student Could Pursue After Completing One of These Programs</h3>", unsafe_allow_html=True) 
     question = f"Based on the recommended list of programs: {ProgramsRecommended}, suggest at least 10 potential career paths or job roles that a student could pursue after completing these programs, to help guide their future career choices."
