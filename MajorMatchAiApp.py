@@ -217,7 +217,7 @@ if st.button('Discover Your Path!'):
     st.write(ProgramsRecommended)
 
 
-     # Display the link to UTK's undergraduate programs and majors     
+     #Display the link to UTK's undergraduate programs and majors     
     st.markdown("<h4 style='font-size:18px; color:#FF8200;'>  If you're interested in exploring the wide range of majors and colleges at the University of Tennessee, check out the link below to discover all the available programs! </h4>", unsafe_allow_html=True)  
 
    
